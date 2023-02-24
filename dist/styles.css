@@ -50,7 +50,7 @@ header button:active {
 }
 
 body {
-	background-image: url("../src/kebabshop.jpg");
+	background-image: url("./kebabshop.jpg");
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
