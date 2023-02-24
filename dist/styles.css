@@ -188,13 +188,13 @@ form button:active {
         margin-right: 5px;
     }
 
-    .menu {
-        height: 2000px;
-    }
-
     .about, .menu {
         padding: 30px;
         width: 100%;
+        height: 500px;
+    }
+
+    .menu {
         height: 100%;
     }
 
