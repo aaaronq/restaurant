@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+#content {
+	max-height: 100vh;
+}
+
+header {
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(245, 245, 220, 0.97);
+	padding: 15px;
+	padding-top: 20px;
+    margin-bottom: 65px;
+}
+
+header h1 {
+	font-size: 8rem;
+	margin-bottom: 0;
+	font-family: "Tangerine", cursive;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+
+header button {
+    cursor: pointer;
+	font-size: 1.5rem;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 100vw;
+	background-color: rgba(255, 255, 230);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+header button:hover {
+    background-color: rgb(221, 221, 171);
+}
+
+header button:active {
+    background-color: rgb(206, 206, 143);
+}
+
+body {
+	background-image: url("../src/kebabshop.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+main {
+    margin: auto;
+	height: 100%;
+    width: 700px;
+	display: flex;
+	justify-content: center;
+}
+
+.about, .menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 600px;
+	height: 600px;
+	background-color: rgba(245, 245, 220, 0.75);
+	padding: 40px;
+	text-align: center; 
+}
+
+.menu {
+    height: 850px;
+    margin-bottom: 50px;
+}
+
+.about p {
+	font-size: 1.5rem;
+	margin-bottom: 1.5em;
+}
+
+.about img {
+	width: 300px;
+	border-radius: 100vw;
+    margin-bottom: 3.75em;
+}
+
+.about img:hover {
+	transform: rotate(360deg);
+    transition: all 1.0s;
+}
+
+.menu img {
+    width: 100%;
+    height: 100%;   
+}
+
+.pageopen {
+    background-color: #eeee87f7;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.field {
+    height: 240px;
+    width: 240px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label, form input {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+form label {
+    margin-top: 25px;
+}
+
+form input#name {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form input#message {
+    height: 150px;
+    border-radius: 10px;
+}
+
+form button {
+    font-size: 2rem;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 25px;
+    border-radius: 100vw;
+    background-color: rgba(255, 255, 230);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(221, 221, 171);
+}
+
+form button:active {
+    background-color: rgb(206, 206, 143);
+}
+
+.about h2{
+    align-self: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 675px) {
+    main {
+        margin: auto;
+        width: 400px;
+    }
+
+    header h1 {
+        font-size: 6rem;
+        letter-spacing: 0;
+    }
+
+    header button {
+        font-size: 1.25em;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    .menu {
+        height: 2000px;
+    }
+
+    .about {
+        padding: 30px;
+        width: 400px;
+        height: 500px;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+    }
+    
+    .about img {
+        margin-top: 1em;
+        width: 230px;
+        border-radius: 100vw;
+        margin-bottom: 2.5em;
+    }
+
+    form input#message {
+        width: 350px;
+    }
+
+    form label {
+        margin-top: 0;
+    }
+
+    form button {
+        margin-top: 10px
+    }
+  }
