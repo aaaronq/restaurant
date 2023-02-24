@@ -22,22 +22,22 @@ const makeMenu = (dom) => {
 	const grid = document.createElement('grid');
     grid.classList.add('grid');
     const img1 = document.createElement('img');
-    img1.setAttribute('src', '../src/food1.png');
+    img1.setAttribute('src', './food1.png');
     img1.classList.add('field');
     const img2 = document.createElement('img');
-    img2.setAttribute('src', '../src/food2.png');
+    img2.setAttribute('src', './food2.png');
     img2.classList.add('field');
     const img3 = document.createElement('img');
-    img3.setAttribute('src', '../src/food3.png');
+    img3.setAttribute('src', './food3.png');
     img3.classList.add('field');
     const img4 = document.createElement('img');
-    img4.setAttribute('src', '../src/food4.png');
+    img4.setAttribute('src', './food4.png');
     img4.classList.add('field');
     const img5 = document.createElement('img');
-    img5.setAttribute('src', '../src/food5.png');
+    img5.setAttribute('src', './food5.png');
     img5.classList.add('field');
     const img6 = document.createElement('img');
-    img6.setAttribute('src', '../src/food6.png');
+    img6.setAttribute('src', './food6.png');
     img6.classList.add('field');
 
 

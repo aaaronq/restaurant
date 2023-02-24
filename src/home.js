@@ -25,7 +25,7 @@ const makeHomepage = (dom) => {
 	const p2 = document.createElement("p");
     p2.innerText = "Just look at this happy customer!"
 	const img = document.createElement("img");
-    img.setAttribute('src', '../src/luke.jpg')
+    img.setAttribute('src', './luke.jpg')
     img.setAttribute('alt', 'Satisfied Customer')
 	const p3 = document.createElement("p");
     p3.innerText = "- The Swanston Slobber"

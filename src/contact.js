@@ -45,7 +45,7 @@ const makeContact = (dom) => {
 		thankyou.innerText = "Thank you!"
 		about.appendChild(thankyou);
 		const lukeimg = document.createElement('img');
-		lukeimg.setAttribute('src', '../src/luke2.jpg');
+		lukeimg.setAttribute('src', './luke2.jpg');
 		lukeimg.setAttribute('alt', 'Thank you photo')
 		lukeimg.style.width = "350px";
 		lukeimg.style.marginTop = "60px";
